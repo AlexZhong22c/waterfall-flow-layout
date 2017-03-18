@@ -1,0 +1,96 @@
+#main{
+	
+	/*宽度202=图片宽度165+padding10*2+border1*2+15*/
+	/*css3的多栏布局*/
+	/*column-width和column-count没必要同时写*/
+	-webkit-column-width:202px;
+	-moz-column-width:202px;
+	-o--column-width:202px;
+	-ms-column-width:202px;
+	/*设置列与列之间的边框厚度*/
+	-webkit-column-rule:2px dashed #F00;
+	-moz-column-rule:2px dashed #F00;
+	-o--column-rule:2px dashed #F00;
+	-ms-column-rule:2px dashed #F00;
+	/*定义列与列的间距*/
+	/*但是间距也不一定按照这个来，窗口宽/202等到多少个，然后再按照多少个平分，间距也被平分了??*/
+	-webkit-column-gap:5px;
+	-moz-column-gap:5px;
+	-o--column-gap:5px;
+	-ms-column-gap:5px;
+/*	-webkit-column-count:6;
+	-moz-column-count:6;
+	-o--column-count:6;
+	-ms-column-count:6;*/
+/*
+	剩下的随着滚动条滚动自动加载的js功能没写，照着抄就行了*/
+
+}
+
+
+/*下面的设置主要是用来看，没有什么意义*/
+*{
+	margin:0;
+	padding: 0;
+}
+.box{
+	padding: 10px 0 0 15px;
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;	
+}
+.pic img{
+	display: block;
+	width: 165px;
+	height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+/*#main{
+	position: relative;
+}
+.box{
+	padding: 15px 0 0 15px;
+	float: left;
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;
+}
+.pic img{
+	width: 165px;
+	height: auto;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
